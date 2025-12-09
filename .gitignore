@@ -1,0 +1,37 @@
+# --- 1. 核心模型与大文件 (必须忽略) ---
+# 基础模型文件夹 (体积巨大)
+Z-Image-Model/
+
+# LoRA 权重文件 (体积较大)
+Technically_Color_Z_Image_Turbo_v1_renderartist_2000.safetensors
+# 也可以忽略所有 .safetensors 以防后续下载新的
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# --- 2. 虚拟环境与缓存 (必须忽略) ---
+# Python 虚拟环境
+z_image_env/
+venv/
+env/
+.env
+
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+
+
+
+# --- 3. 系统与IDE生成文件 (推荐忽略) ---
+# Mac 系统文件
+.DS_Store
+
+# VS Code 配置 (个人偏好设置不应上传)
+.vscode/
+
+# PyCharm 配置
+.idea/
+
+# 日志文件
+*.log

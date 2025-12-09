@@ -1,0 +1,14 @@
+torch>=2.0.0
+torchvision
+torchaudio
+gradio>=4.0.0
+transformers
+accelerate
+protobuf
+sentencepiece
+huggingface_hub
+safetensors
+
+Diffusers 需要从 GitHub 源码安装以支持 Z-Image 的最新特性
+
+diffusers @ git+https://github.com/huggingface/diffusers.git
