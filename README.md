@@ -4,7 +4,7 @@
 
 本项目基于阿里通义 [Tongyi-MAI/Z-Image-Turbo](https://huggingface.co/Tongyi-MAI/Z-Image-Turbo "null") 模型，针对 **Apple Silicon (M1/M2/M3/M4)** 和 **NVIDIA RTX (Windows)** 进行了深度底层优化。通过 Bfloat16 精度、VAE FP32 混合精度推理以及手动 LoRA 注入技术，实现了**极速、高清、低显存占用**的完美平衡。
 
-![丝袜近景特写](./UI.png "界面截图")
+![界面截图](./examples/UI.png "界面截图")
 
 
 ## ✨ 核心特性 (Key Features)
